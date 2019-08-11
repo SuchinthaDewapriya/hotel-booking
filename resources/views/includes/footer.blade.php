@@ -10,9 +10,8 @@
                 <div class="gtco-widget">
                     <h3>Get In Touch</h3>
                     <ul class="gtco-quick-contact">
-                        <li><a href="#"><i class="icon-phone"></i> +1 234 567 890</a></li>
-                        <li><a href="#"><i class="icon-mail2"></i> info@GetTemplates.co</a></li>
-                        <li><a href="#"><i class="icon-chat"></i> Live Chat</a></li>
+                        <li><a href="#"><i class="icon-phone"></i> +94 091 9391 999</a></li>
+                        <li><a href="#"><i class="icon-mail2"></i> info@villasunray.lk</a></li>
                     </ul>
                 </div> 
                 <div class="gtco-widget">
@@ -27,8 +26,7 @@
             </div>
 
             <div class="col-md-12 text-center copyright">
-                <p><small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-                    <small class="block">Designed by <a href="http://gettemplates.co/" target="_blank">GetTemplates.co</a> Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+                <p><small class="block">&copy; COPYRIGHT 2019 dislin.lk. ALL RIGHTS RESERVED. | A SITE BY THE CREATIVE MOMENTA</small> </p>
             </div>
 
         </div>

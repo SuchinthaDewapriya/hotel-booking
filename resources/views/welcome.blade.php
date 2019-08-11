@@ -2,7 +2,7 @@
 
 @section('content')
 
-<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background:url(public/images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background:url(public/images/cover_2.jpg)" data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="gtco-container">
         <div class="row">
@@ -10,11 +10,16 @@
                 
 
                 <div class="row row-mt-15em">
-                    <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
-                        <span class="intro-text-small">Hand-crafted by <a href="http://gettemplates.co" target="_blank">GetTemplates.co</a></span>
-                        <h1 class="cursive-font">All in good taste!</h1>	
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 mt-text animate-box" data-animate-effect="fadeInUp">
+                        <center>
+                        <span class="intro-text-small">LUXURY SIGNATURE HOTEL IN SRI LANKA<a href="" target="_blank"></a></span>
+                        <h1 class="cursive-font">Villa Sunray!</h1>	<br>
+                        <button type="submit" class="btn btn-reserve btn-block">Reserve Now</button>
+                        </center>
                     </div>
-                    <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
+                    <div class="col-md-3"></div>
+                    {{-- <div class="col-md-4 col-md-push-1 animate-box" data-animate-effect="fadeInRight">
                         <div class="form-wrap">
                             <div class="tab">
                                 
@@ -59,10 +64,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
-                        
-                
             </div>
         </div>
     </div>
@@ -72,92 +75,34 @@
     <div class="gtco-container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
-                <h2 class="cursive-font primary-color">Popular Dishes</h2>
-                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                <h2 class="cursive-font primary-color">ACCOMMODATION</h2>
             </div>
         </div>
         <div class="row">
 
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <a href="images/img_1.jpg" class="fh5co-card-item image-popup">
                     <figure>
                         <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="public/images/img_1.jpg" alt="Image" class="img-responsive">
+                        <img src="{{ asset('public/images/rooms/1.jpg')}}" alt="Image" class="img-responsive">
                     </figure>
                     <div class="fh5co-text">
-                        <h2>Fresh Mushrooms</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$19.15</span></p>
+                        <h2>Deluxe</h2>
+                        <p>Traditional style & contentporary amenities for the discerning traveller..</p>
+                        <p><span class="price cursive-font">Rs.2000.00</span></p>
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
                 <a href="images/img_2.jpg" class="fh5co-card-item image-popup">
                     <figure>
                         <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="images/img_2.jpg" alt="Image" class="img-responsive">
+                        <img src="{{ asset('public/images/rooms/family_suits.jpg')}}" alt="Image" class="img-responsive">
                     </figure>
                     <div class="fh5co-text">
-                        <h2>Cheese and Garlic Toast</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$20.99</span></p>
-                    </div>
-                </a>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <a href="images/img_3.jpg" class="fh5co-card-item image-popup">
-                    <figure>
-                        <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="images/img_3.jpg" alt="Image" class="img-responsive">
-                    </figure>
-                    <div class="fh5co-text">
-                        <h2>Grilled Chiken Salad</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$8.99</span></p>
-
-                    </div>
-                </a>
-            </div>
-
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <a href="images/img_4.jpg" class="fh5co-card-item image-popup">
-                    <figure>
-                        <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="images/img_4.jpg" alt="Image" class="img-responsive">
-                    </figure>
-                    <div class="fh5co-text">
-                        <h2>Organic Egg</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$12.99</span></p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <a href="images/img_5.jpg" class="fh5co-card-item image-popup">
-                    <figure>
-                        <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="images/img_5.jpg" alt="Image" class="img-responsive">
-                    </figure>
-                    <div class="fh5co-text">
-                        <h2>Tomato Soup with Chicken</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$23.10</span></p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <a href="images/img_6.jpg" class="fh5co-card-item image-popup">
-                    <figure>
-                        <div class="overlay"><i class="ti-plus"></i></div>
-                        <img src="images/img_6.jpg" alt="Image" class="img-responsive">
-                    </figure>
-                    <div class="fh5co-text">
-                        <h2>Salad with Crispy Chicken</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia..</p>
-                        <p><span class="price cursive-font">$5.59</span></p>
+                        <h2>Family Suits</h2>
+                        <p>Traditional style & contentporary amenities for the discerning traveller..</p>
+                        <p><span class="price cursive-font">Rs.5000.00</span></p>
                     </div>
                 </a>
             </div>
@@ -271,7 +216,7 @@
         <div class="row animate-box">
             <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
                 <h2 class="cursive-font">Subscribe</h2>
-                <p>Be the first to know about the new templates.</p>
+                <p>Be the first to know about the villa sunray.</p>
             </div>
         </div>
         <div class="row animate-box">
@@ -292,32 +237,5 @@
     </div>
 </div>
 
-<form id="checkForm">
-    @csrf
-    Check in : <input type="date" name="checkIn" id="checkIn">
-    Check out : <input type="date" name="checkOut" id="checkOut">
-    <input type="button" onclick="Check()" value="Check">
-</form>
-<div class="rooms">
-
-</div>
-
-<script>
-    function Check() {
-        var checkForm = $("#checkForm").serialize();
-        $.ajax({
-            type: "POST",
-            url: "{{ url('checkAvailability') }}",
-            data: checkForm,
-            success: function (response) {
-                $('.rooms').empty();
-                console.log(response)
-                $.each(response, function(k,v){
-                    $('.rooms').append('<div class="result">'+v.r_name+'</div>')
-                })
-            }
-        });
-    }
-</script>
 @endsection
     
