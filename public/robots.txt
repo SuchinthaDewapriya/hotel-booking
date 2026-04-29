@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /404.html
+Disallow: /messages.html
+Disallow: /*.php
+Disallow: /reviews-form.html
+Disallow: /sitemap-org.xml
+Disallow: */cdn-cgi/*
