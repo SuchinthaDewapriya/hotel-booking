@@ -335,6 +335,7 @@
 	});
 
 
+<<<<<<< HEAD
 }());
 
 jQuery('document').ready(function(){
@@ -408,3 +409,6 @@ AOS.init({
 
 
 });
+=======
+}());
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>@yield('title', 'Secret Paradise Villa | Hidden Gem in Hiriketiya')</title>
     <meta name="description" content="@yield('meta_description', 'Welcome make your dreams come true waking up by the sounds of nature and overviewing the Indian Ocean while the sun comes up in our Secret Paradise Villa located in Hiriketiya, Sri Lanka. Book your stay now and experience the ultimate tropical getaway.')">
     <meta name="keywords" content="@yield('meta_keywords', 'Secret Paradise Villa, Hiriketiya Beach, Sri Lanka villa, tropical getaway, beachfront villa, luxury accommodation, hotel in Sri Lanka')">
 	<link rel="icon" type="image/x-icon" href="{{ asset('public/images/favicon.ico')}}">
 
+=======
+    <title>Document</title>
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amaranth&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+<<<<<<< HEAD
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,18 +29,35 @@
 	<link rel="stylesheet" href="{{ asset('public/css/normalize.min.css')}}">
 	<link rel='stylesheet' href="{{ asset('public/css/font-awesome.min.css')}}">
 	<link rel='stylesheet' href="{{ asset('public/admin/plugins/fontawesome-free/css/all.min.css')}}">
+=======
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto:400,700'>
+  
+	<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="{{ asset('public/css/animate.css')}}">
 	<!-- Icomoon Icon Fonts-->
 	<link rel="stylesheet" href="{{ asset('public/css/icomoon.css')}}">
 	<!-- Themify Icons-->
 	<link rel="stylesheet" href="{{ asset('public/css/themify-icons.css')}}">
+<<<<<<< HEAD
 	<link rel="stylesheet" href="{{ asset('public/css/bootstrap.min.css')}}">
+=======
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{{ asset('public/css/bootstrap.css')}}">
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 	<!-- Magnific Popup -->
 	<link rel="stylesheet" href="{{ asset('public/css/magnific-popup.css')}}">
 
+<<<<<<< HEAD
 	<!-- Bootstrap DateTimePicker --> 
+=======
+	<!-- Bootstrap DateTimePicker -->
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 	<link rel="stylesheet" href="{{ asset('public/css/bootstrap-datetimepicker.min.css')}}">
 
 	<!-- Owl Carousel  -->
@@ -45,6 +67,7 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="{{ asset('public/css/style.css')}}">
 
+<<<<<<< HEAD
     <!--Lightbox CSS-->
     <link href="{{ asset('public/css/lightbox.min.css')}}" rel="stylesheet" />
 
@@ -137,5 +160,13 @@
 	
 
 
+=======
+	<!-- Modernizr JS -->
+    <script src="{{ asset('public/js/modernizr-2.6.2.min.js')}}"></script>
+
+    <!-- jQuery -->
+    <script src="{{ asset('public/js/jquery.min.js')}}"></script>
+    
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
  
     

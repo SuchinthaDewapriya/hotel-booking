@@ -39,7 +39,10 @@ return [
             'table' => 'jobs',
             'queue' => 'default',
             'retry_after' => 90,
+<<<<<<< HEAD
             'after_commit' => false,
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
         ],
 
         'beanstalkd' => [
@@ -48,7 +51,10 @@ return [
             'queue' => 'default',
             'retry_after' => 90,
             'block_for' => 0,
+<<<<<<< HEAD
             'after_commit' => false,
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
         ],
 
         'sqs' => [
@@ -56,10 +62,15 @@ return [
             'key' => env('AWS_ACCESS_KEY_ID'),
             'secret' => env('AWS_SECRET_ACCESS_KEY'),
             'prefix' => env('SQS_PREFIX', 'https://sqs.us-east-1.amazonaws.com/your-account-id'),
+<<<<<<< HEAD
             'queue' => env('SQS_QUEUE', 'default'),
             'suffix' => env('SQS_SUFFIX'),
             'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
             'after_commit' => false,
+=======
+            'queue' => env('SQS_QUEUE', 'your-queue-name'),
+            'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
         ],
 
         'redis' => [
@@ -68,13 +79,17 @@ return [
             'queue' => env('REDIS_QUEUE', 'default'),
             'retry_after' => 90,
             'block_for' => null,
+<<<<<<< HEAD
             'after_commit' => false,
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
         ],
 
     ],
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Job Batching
     |--------------------------------------------------------------------------
     |
@@ -91,6 +106,8 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
     | Failed Queue Jobs
     |--------------------------------------------------------------------------
     |
@@ -101,7 +118,10 @@ return [
     */
 
     'failed' => [
+<<<<<<< HEAD
         'driver' => env('QUEUE_FAILED_DRIVER', 'database-uuids'),
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
         'database' => env('DB_CONNECTION', 'mysql'),
         'table' => 'failed_jobs',
     ],

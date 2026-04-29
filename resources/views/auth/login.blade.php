@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -102,6 +103,11 @@
 
 
 {{-- 
+=======
+@extends('layouts.app')
+
+@section('content')
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -170,5 +176,10 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </div> --}}
 
+=======
+</div>
+@endsection
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

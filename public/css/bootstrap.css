@@ -1393,7 +1393,11 @@ html {
 }
 
 body {
+<<<<<<< HEAD
   font-family: "Helvetica Neue", Helvetica, Calibri, sans-serif;
+=======
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -6538,7 +6542,11 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
+<<<<<<< HEAD
   font-family: "Helvetica Neue", Helvetica, Calibri, sans-serif;
+=======
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6660,7 +6668,11 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
+<<<<<<< HEAD
   font-family: "Helvetica Neue", Helvetica, Calibri, sans-serif;
+=======
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;

@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 *.sqlite*
+=======
+*.sqlite
+*.sqlite-journal
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

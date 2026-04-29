@@ -12,6 +12,7 @@ class CreateRoomsTable extends Migration
      * @return void
      */
     public function up()
+<<<<<<< HEAD
 {
     Schema::create('rooms', function (Blueprint $table) {
         $table->bigIncrements('r_id');
@@ -30,6 +31,17 @@ class CreateRoomsTable extends Migration
         $table->timestamps();
     });
 }
+=======
+    {
+        Schema::create('rooms', function (Blueprint $table) {
+            $table->bigIncrements('r_id');
+            $table->string('r_name');
+            $table->integer('r_quantity');
+            $table->integer('r_status');
+            $table->timestamps();
+        });
+    }
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /**
      * Reverse the migrations.
@@ -39,8 +51,11 @@ class CreateRoomsTable extends Migration
     public function down()
     {
         Schema::dropIfExists('rooms');
+<<<<<<< HEAD
            Schema::table('rooms', function (Blueprint $table) {
         $table->dropColumn(['room_number', 'max_occupancy']);
     });
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
     }
 }

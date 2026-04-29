@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\BookingController;
@@ -8,6 +9,8 @@ use App\Http\Controllers\BotManController;
 use App\Models\Room;
 use App\Models\Menu;
 use App\Models\RoomGallery;
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,7 @@ use App\Models\RoomGallery;
 |
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
+<<<<<<< HEAD
 | contains the "web" middleware group. Now create something great! 
 |
 */
@@ -167,3 +171,20 @@ Route::get('/payment/pay', function () {
 Route::match(['get', 'post'], 'botman', [BotManController::class, 'handle']);
 
 //Route::post('botman', [BotManController::class, 'handle']);
+=======
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+Route::post('checkAvailability', 'SearchController@CheckAvailability'); 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('reservation', function () {
+    return view('reservation');
+});
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

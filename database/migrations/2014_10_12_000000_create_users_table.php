@@ -19,7 +19,10 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+<<<<<<< HEAD
             $table->string('type')->default('Manager');
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
             $table->rememberToken();
             $table->timestamps();
         });

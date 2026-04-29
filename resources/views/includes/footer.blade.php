@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!-- Modernizr JS -->
 <script src="{{ asset('public/js/modernizr-2.6.2.min.js')}}"></script>
@@ -6,6 +7,47 @@
 <script src="{{ asset('public/js/jquery.min.js')}}"></script>
 <script src="{{ asset('public/js/popper.min.js')}}"></script>
 <script src="{{ asset('public/js/sweetalert.min.js')}}"></script>
+=======
+<footer id="gtco-footer" role="contentinfo" style="background-image: url(public/images/img_bg_1.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="gtco-container">
+        <div class="row row-pb-md">
+
+            
+
+            
+            <div class="col-md-12 text-center">
+                <div class="gtco-widget">
+                    <h3>Get In Touch</h3>
+                    <ul class="gtco-quick-contact">
+                        <li><a href="#"><i class="icon-phone"></i> +94 091 9391 999</a></li>
+                        <li><a href="#"><i class="icon-mail2"></i> info@villasunray.lk</a></li>
+                    </ul>
+                </div> 
+                <div class="gtco-widget">
+                    <h3>Get Social</h3>
+                    <ul class="gtco-social-icons">
+                        <li><a href="#"><i class="icon-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-12 text-center copyright">
+                <p><small class="block">&copy; COPYRIGHT 2019 dislin.lk. ALL RIGHTS RESERVED. | A SITE BY THE CREATIVE MOMENTA</small> </p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+</footer>
+
+
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 <!-- jQuery Easing -->
 <script src="{{ asset('public/js/jquery.easing.1.3.js')}}"></script>
 <!-- Bootstrap -->
@@ -26,6 +68,7 @@
 
 <script src="{{ asset('public/js/moment.min.js')}}"></script>
 <script src="{{ asset('public/js/bootstrap-datetimepicker.min.js')}}"></script>
+<<<<<<< HEAD
 <!-- Lightbox JS -->
 <script src="{{ asset('public/js/lightbox.min.js')}}"></script>
 <!-- Swiper JS -->
@@ -37,12 +80,15 @@
 <!-- aos animation -->
 <script src="{{ asset('public/js/aos.js')}}"></script>
 
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 <!-- Main -->
 <script src="{{ asset('public/js/main.js')}}"></script>
 
 
 </head>
+<<<<<<< HEAD
 <body>
 <!-- Footer -->
 <footer class="footer-section">
@@ -142,3 +188,6 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 </footer>
+=======
+<body>
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

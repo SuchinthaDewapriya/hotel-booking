@@ -1,7 +1,11 @@
 User-agent: *
+<<<<<<< HEAD
 Disallow: /404.html
 Disallow: /messages.html
 Disallow: /*.php
 Disallow: /reviews-form.html
 Disallow: /sitemap-org.xml
 Disallow: */cdn-cgi/*
+=======
+Disallow:
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

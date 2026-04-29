@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\DB;
 
 
@@ -46,6 +47,8 @@ use Mail;
 use Fpdf;
 
 use Calendar;
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 class HomeController extends Controller
 {
@@ -54,10 +57,17 @@ class HomeController extends Controller
      *
      * @return void
      */
+<<<<<<< HEAD
     // public function __construct()
     // {
     //     $this->middleware('auth');
     // }
+=======
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /**
      * Show the application dashboard.
@@ -68,6 +78,7 @@ class HomeController extends Controller
     {
         return view('home');
     }
+<<<<<<< HEAD
     public function roomsPage()
     {
         $rooms = Room::with('gallery')->get();
@@ -198,4 +209,6 @@ class HomeController extends Controller
         return view('faq', compact('faqs'));
     }
    
+=======
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 }

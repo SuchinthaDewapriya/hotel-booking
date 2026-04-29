@@ -134,7 +134,11 @@ button::-moz-focus-inner {
   color: white;
   font-style: normal;
   font-size: 28px;
+<<<<<<< HEAD
   font-family: Calibri, Baskerville, monospace; }
+=======
+  font-family: Arial, Baskerville, monospace; }
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
   .mfp-close:hover, .mfp-close:focus {
     opacity: 1;
     filter: alpha(opacity=100); }

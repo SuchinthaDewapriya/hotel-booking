@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+<<<<<<< HEAD
 use App\Models\Booking;
 
 use App\Models\Room;
@@ -17,11 +18,17 @@ use Illuminate\Support\Facades\Validator;
 use Cart;
  
 use Carbon\Carbon;
+=======
+use App\Booking;
+
+use App\Room;
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 use Illuminate\Http\Request;
 
 class SearchController extends Controller
 {
+<<<<<<< HEAD
     public function reservation()
     {
         $cart = Cart::getContent();
@@ -299,3 +306,59 @@ class SearchController extends Controller
     } 
 
 }
+=======
+    function CheckAvailability(Request $request) {
+            // $checkBooking = Booking::whereBetween('b_checkoutdate', [$request->checkIn, $request->checkOut])
+            //     ->pluck('b_id');
+
+            // $checkBookingRID = Booking::whereBetween('b_checkoutdate', [$request->checkIn, $request->checkOut])
+            // ->pluck('b_rid');
+
+            // if (count($checkBooking) > 0) {
+            //     $test = Booking::where('b_id',$checkBooking)->pluck('b_quantity');
+            //     $roomQuantity = Room::where('r_id', '=', $checkBookingRID)->where('r_quantity','>=', $test)->pluck('r_id');
+            //     $checkRoom = Room::whereNotIn('r_id',$roomQuantity)->get();
+            // } else {
+            //     $checkRoom = Room::get();
+            // }
+            
+           
+            // dd($checkBooking);
+            //  if (count($checkBooking) > 0) {
+
+                
+            //      foreach ($checkBooking as $value) {
+            //         $roomQuantity = Room::where('r_id',$value->b_rid)->where('r_quantity','<=', $value->b_quantity)->pluck('r_id');
+            //      }
+
+            //         $checkRoom = Room::wherenotIn('r_id',$roomQuantity)->get();
+                
+                
+            //  } else {
+            //     $checkRoom = Room::get();
+
+            //  }
+
+            $checkBooking = Booking::where('b_checkoutdate', '>=' ,$request->checkIn)
+            ->pluck('b_rid');
+            
+            
+
+            if ( count($checkBooking) > 0 ) {
+                $room = Room::where('r_id',$checkBooking)->get();
+                foreach ($room as $rooms) {
+                    if ($rooms->r_quantity != 0) {
+                        $checkRoom = Room::get();
+                    } 
+                    else{
+                        $checkRoom = Room::whereNotIn('r_id',$checkBooking)->get();
+                    }   
+                }
+            } else {
+                $checkRoom = Room::get();
+            }
+  
+        return $checkRoom;
+    }
+}
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422

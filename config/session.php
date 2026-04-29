@@ -72,7 +72,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'connection' => env('SESSION_CONNECTION'),
+=======
+    'connection' => env('SESSION_CONNECTION', null),
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /*
     |--------------------------------------------------------------------------
@@ -92,6 +96,7 @@ return [
     | Session Cache Store
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | While using one of the framework's cache driven session backends you may
     | list a cache store that should be used for these sessions. This value
     | must match with one of the application's configured cache "stores".
@@ -101,6 +106,15 @@ return [
     */
 
     'store' => env('SESSION_STORE'),
+=======
+    | When using the "apc", "memcached", or "dynamodb" session drivers you may
+    | list a cache store that should be used for these sessions. This value
+    | must match with one of the application's configured cache "stores".
+    |
+    */
+
+    'store' => env('SESSION_STORE', null),
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /*
     |--------------------------------------------------------------------------
@@ -155,7 +169,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'domain' => env('SESSION_DOMAIN'),
+=======
+    'domain' => env('SESSION_DOMAIN', null),
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /*
     |--------------------------------------------------------------------------
@@ -164,11 +182,19 @@ return [
     |
     | By setting this option to true, session cookies will only be sent back
     | to the server if the browser has a HTTPS connection. This will keep
+<<<<<<< HEAD
     | the cookie from being sent to you when it can't be done securely.
     |
     */
 
     'secure' => env('SESSION_SECURE_COOKIE'),
+=======
+    | the cookie from being sent to you if it can not be done securely.
+    |
+    */
+
+    'secure' => env('SESSION_SECURE_COOKIE', false),
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
     /*
     |--------------------------------------------------------------------------
@@ -190,6 +216,7 @@ return [
     |
     | This option determines how your cookies behave when cross-site requests
     | take place, and can be used to mitigate CSRF attacks. By default, we
+<<<<<<< HEAD
     | will set this value to "lax" since this is a secure default value.
     |
     | Supported: "lax", "strict", "none", null
@@ -197,5 +224,14 @@ return [
     */
 
     'same_site' => 'lax',
+=======
+    | do not enable this as other CSRF protection services are in place.
+    |
+    | Supported: "lax", "strict"
+    |
+    */
+
+    'same_site' => null,
+>>>>>>> 70d25f10a8f36bf7f459c5563f6fe29082f7d422
 
 ];
