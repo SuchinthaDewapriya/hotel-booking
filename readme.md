@@ -5,7 +5,7 @@
 * [日本語](#japanese)
 
 <a name="english"></a>
-## 🇺🇸 English
+## 🇺🇸 English 
 
 ### 🚀 Overview
 A professional web application for hotel room reservations built with **Laravel**. This project demonstrates full-stack development capabilities, including database management and administrative controls.
